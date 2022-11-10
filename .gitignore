@@ -1,0 +1,5 @@
+node_modules
+.env
+actualSoruce.json
+cleanedUp.json
+playedSongs.json

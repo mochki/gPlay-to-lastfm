@@ -1,0 +1,28 @@
+{
+  "name": "gPlay-to-lastfm",
+  "version": "1.0.0",
+  "description": "Utility to push up you listening history from Google Play Music to Last.FM",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mochki/gPlay-to-lastfm.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mochki/gPlay-to-lastfm/issues"
+  },
+  "homepage": "https://github.com/mochki/gPlay-to-lastfm#readme",
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "es6-promisify": "^6.0.0",
+    "fs-extra": "^5.0.0",
+    "lastfmapi": "^0.1.1",
+    "playmusic": "^2.3.0"
+  }
+}
